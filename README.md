@@ -37,12 +37,17 @@ The format specifications for ES are also quite simple:
 # This denotes a comment, which are ignored and last until the new line.
 
 #The format is simple: paramName | data
+
 #Commas are used to separate entries (new lines are not necessary though may aid readability)
+
 #Currently, the five supported data types are: string, integer, floating point, boolean, and an array consisting of any of those data types.
+
 myString|"Hello World!",
 myInt|-100,
 myFloat|20.24,
 myBool|True,
+
 # Arrays are denoted using square brackets, and they can be nested too:
+
 myArray|[1,2,3,"Hello",["Inner array",4,5,6,False]]
 ```
