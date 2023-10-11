@@ -1,8 +1,8 @@
 # EnderScript
 EnderScript is a simple, lightweight data interchange format which functions similarly to JSON. The name is associated with the goal to _end_ the need for bulky data interchange libraries in small hobby projects.
 
-#Sample
-`
+# Sample
+```
 //Buffers are for writing data to ES form
 ESBuffer buffer = new ESBuffer();
 buffer.Add("string", "Hello World!");
@@ -30,4 +30,4 @@ var a = builder.GetArray("array",null);
 ESBuilder builder2 = new ESBuilder("name|\"Jon Smith\",age|31");
 var name = builder2.Get("name",null);
 var age = builder2.Get("age", 0);
-`
+```
