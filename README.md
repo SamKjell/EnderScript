@@ -1,4 +1,7 @@
 # EnderScript
+
+[![Downloads](https://img.shields.io/badge/Downloads-magenta)](https://github.com/SamKjell/EnderScript/releases)
+
 EnderScript is a simple, lightweight data interchange format which functions similarly to JSON. The name is associated with the goal to _end_ the need for bulky data interchange libraries in small hobby projects.
 
 # Sample
