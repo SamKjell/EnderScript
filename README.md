@@ -52,5 +52,13 @@ myBool|True,
 
 # Arrays are denoted using square brackets, and they can be nested too:
 
-myArray|[1,2,3,"Hello",["Inner array",4,5,6,False]]
+myArray|[1,2,3,"Hello",["Inner array",4,5,6,False]],
+
+# to write quotes in a string, use a \ before the quote:
+
+myQuoteString|"\"Hello World\"",
+
+# to write a backslash in a string, use \\
+
+myBackslash|"This is a backslash: \\"
 ```
