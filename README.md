@@ -2,6 +2,7 @@
 EnderScript is a simple, lightweight data interchange format which functions similarly to JSON. The name is associated with the goal to _end_ the need for bulky data interchange libraries in small hobby projects.
 
 # Sample
+Currently, the only supported programming language is C# but perhaps other languages may receive a port eventually. Here is some sample code to help you get started!
 ```
 //Buffers are for writing data to ES form
 ESBuffer buffer = new ESBuffer();
