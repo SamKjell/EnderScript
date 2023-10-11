@@ -16,7 +16,7 @@ buffer.Add("array", new object[] { 1, 2, 3, "Hello", new object[] { "Inner array
 buffer.WriteToPath("sample.es");
 
 //Builders are for reading text in the ES form and converting it to a data structure
-//ES can be read through a path using the ESBuilder.Create function or otherwise can be built
+//ES can be read through a path using the ESBuilder.Create function
 ESBuilder builder = ESBuilder.Create("sample.es");
 
 //ESBuilder.Get retrieves the data.
@@ -27,7 +27,7 @@ var f = builder.Get("float",0f);
 var b = builder.Get("bool",false);
 var a = builder.GetArray("array",null);
 
-// with an string in the ES format using the ESBuilder's constructor
+//Otherwise, it can be built with an string in the ES format using the ESBuilder's constructor
 ESBuilder builder2 = new ESBuilder("name|\"Jon Smith\",age|31");
 var name = builder2.Get("name",null);
 var age = builder2.Get("age", 0);
