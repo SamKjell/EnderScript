@@ -3,7 +3,7 @@ EnderScript is a simple, lightweight data interchange format which functions sim
 
 # Sample
 Currently, the only supported programming language is C# but perhaps other languages may receive a port eventually. Here is some sample code to help you get started!
-```
+```C#
 //Buffers are for writing data to ES form
 ESBuffer buffer = new ESBuffer();
 buffer.Add("string", "Hello World!");
